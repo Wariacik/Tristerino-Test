@@ -44,7 +44,7 @@ namespace Tristerino.Modes
 
                 if (target != null)
                 {
-                    if (!Settings.WTurret && Extensions.CountEnemiesInRange(target, 200) < 3)
+                    if (!Settings.WTurret && Extensions.CountEnemiesInRange(target, 200) < 2)
                     {
                         ;
                         if (!target.HasBuffOfType(BuffType.SpellImmunity) && !target.HasBuffOfType(BuffType.SpellShield) &&
